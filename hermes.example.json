@@ -1,0 +1,23 @@
+{
+  "agent": {
+    "name": "hermes",
+    "provider": "free-model",
+    "model": "openai/gpt-oss-120b"
+  },
+  "slack": {
+    "workspace": "your-slack-workspace",
+    "channels": {
+      "sprintMain": "#sprint-main",
+      "agentCoder": "#agent-coder",
+      "agentLog": "#agent-log"
+    },
+    "tokens": {
+      "appToken": "${SLACK_APP_TOKEN}",
+      "botToken": "${SLACK_BOT_TOKEN}"
+    }
+  },
+  "memory": {
+    "enabled": true,
+    "storage": "local"
+  }
+}

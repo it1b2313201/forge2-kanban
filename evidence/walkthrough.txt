@@ -1,0 +1,1 @@
+This folder is intended for a 60-90 second screen recording or GIF demonstrating the app and the agent loop. Rename or replace this file with `walkthrough.mp4` or a GIF before submission.
